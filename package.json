@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "set PORT=localhost:3001 && react-scripts start",
+    "start": "PORT=3001 react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,3 +36,5 @@
     ]
   }
 }
+
+
