@@ -6,7 +6,7 @@ import Category from './Category'
 
 export default function Categories () {
   const categories = useSelector(selectCategories)
-  const { path, url } = useRouteMatch()
+  const { path, url } = useMatch()
 
   return (
     <main>

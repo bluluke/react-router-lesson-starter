@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Search = () => {
   const searchInputRef = useRef();
-  const history = useHistory();
+  const history = useNavigate();
 
   const onSearchHandler = (e) => {
     e.preventDefault();
